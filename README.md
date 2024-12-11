@@ -12,7 +12,7 @@ This repository contains the implementation and testing of Vision Transformer (V
        - Configuration of training arguments such as learning rate, number of epochs, and batch size.
        - Utilizes the `Trainer` class for handling training and evaluation.
      - **Output**: Saves the trained model parameters.
-   - **Your Contribution**: I created a ViT model using the relevant code from the `transformer` library and trained it on a dataset.
+   - **Contribution**: I created a ViT model using the relevant code from the `transformer` library and trained it on a dataset.
 
 ### 2. **`ViTWithConvStem.ipynb`**
    - **Purpose**: Extends the Vision Transformer with a convolutional stem for initial feature extraction.
@@ -22,15 +22,25 @@ This repository contains the implementation and testing of Vision Transformer (V
        - Integrates convolutional operations into the training loop.
        - Tests the model on a validation dataset.
      - **Output**: Saves the model parameters with the convolutional stem.
-   - **Your Contribution**: I designed the convolutional stem and integrated it into the Vision Transformer pipeline.
+   - **Contribution**: I designed the convolutional stem and integrated it into the Vision Transformer pipeline.
 
-### 3. **test_ViT.ipynb`** \& **test_ViTwithConvStem.ipynb`**
-   - **Purpose**: Evaluates the performance of the trained models.
+### 3. **test_ViT.ipynb`**  
+   - **Purpose**: Evaluates the performance of the trained ViT model.
    - **Key Components**:
      - Loads the saved model parameters.
      - Computes evaluation metrics (accuracy, loss) on the test dataset.
      - Provides a detailed log of test results.
-   - **Your Contribution**: I implemented the evaluation logic and metric computation.
+   - **Contribution**: I implemented the evaluation logic and metric computation.
+
+### 3. **test_ViTwithConvStem.ipynb`**
+   - **Purpose**: Evaluates the performance of the trained ViTWithConvStem model.
+   - **Key Components**:
+     - Loads the saved model parameters.
+     - Computes evaluation metrics (accuracy, loss) on the test dataset.
+     - Provides a detailed log of test results.
+   - **Contribution**: I implemented the evaluation logic and metric computation.
+
+
 
 ## Running the Project
 
