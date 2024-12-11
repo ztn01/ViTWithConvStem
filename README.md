@@ -24,13 +24,13 @@ This repository contains the implementation and testing of Vision Transformer (V
      - **Output**: Saves the model parameters with the convolutional stem.
    - **Your Contribution**: I designed the convolutional stem and integrated it into the Vision Transformer pipeline.
 
-### 3. **`test_result.ipynb`**
+### 3. **test_ViT.ipynb`** and **test_ViTwithConvStem.ipynb`**
    - **Purpose**: Evaluates the performance of the trained models.
    - **Key Components**:
      - Loads the saved model parameters.
      - Computes evaluation metrics (accuracy, loss) on the test dataset.
      - Provides a detailed log of test results.
-   - **Your Contribution**: You implemented the evaluation logic and metric computation.
+   - **Your Contribution**: I implemented the evaluation logic and metric computation.
 
 ## Running the Project
 
