@@ -72,7 +72,7 @@ pip install torch transformers jupyter matplotlib
    - The trained model parameters will be saved as `model_parameters_1202.pth`.
 
 3. **Evaluate Models**:
-   - Open `test_result.ipynb` in Jupyter Notebook.
+   - Open `test_ViT.ipynb` and `test_ViTwithConvStem.ipynb` in Jupyter Notebook.
    - Run all cells to evaluate the trained models on the test dataset.
    - The evaluation results, including accuracy and loss, will be displayed.
 
